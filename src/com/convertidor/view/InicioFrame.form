@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.convertidor.view.InicioFrame">
+  <grid id="27dc6" binding="jpInicial" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="15">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-2699606"/>
+      <foreground color="-2699606"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e1538" class="javax.swing.JButton" binding="btnMoneda">
+        <constraints>
+          <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3714509"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Cooper Black" size="27" style="0"/>
+          <foreground color="-206192"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Moneda"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="be62b" class="javax.swing.JButton" binding="btnTemperatura">
+        <constraints>
+          <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3714509"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Cooper Black" size="16" style="0"/>
+          <foreground color="-206192"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Temperatura"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="29704" class="javax.swing.JButton" binding="btnTiempo">
+        <constraints>
+          <grid row="2" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3714509"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Cooper Black" size="28" style="0"/>
+          <foreground color="-206192"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Tiempo"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="74c89" class="javax.swing.JButton" binding="btnMasa">
+        <constraints>
+          <grid row="4" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3714509"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Cooper Black" size="28" style="0"/>
+          <foreground color="-206192"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Masa"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <hspacer id="5e5e5">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="7436">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="3d514">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="61c3b">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="616b4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bauhaus 93" size="60" style="1"/>
+          <foreground color="-2403532"/>
+          <text value="Conversor"/>
+        </properties>
+      </component>
+      <vspacer id="29567">
+        <constraints>
+          <grid row="2" column="2" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a94a2">
+        <constraints>
+          <grid row="4" column="2" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="83e4b" class="javax.swing.JButton" binding="btnSalir">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <font name="Cooper Black" size="18" style="0"/>
+          <foreground color="-10604730"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="true"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <component id="a77f6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6840403"/>
+          <foreground color="-8109519"/>
+          <text value=" ©Copyright - Oracle Programa ONE - Jhordy Aguas"/>
+        </properties>
+      </component>
+      <vspacer id="b3af3">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

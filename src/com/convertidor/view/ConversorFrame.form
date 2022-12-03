@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.convertidor.view.ConversorFrame">
+  <grid id="27dc6" binding="pnlConversor" layout-manager="GridLayoutManager" row-count="8" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="614" height="433"/>
+    </constraints>
+    <properties>
+      <background color="-2699606"/>
+      <foreground color="-2699606"/>
+      <opaque value="true"/>
+      <preferredSize width="350" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="76eb0" class="javax.swing.JLabel" binding="lbTitulo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4195785"/>
+          <enabled value="true"/>
+          <font name="Bauhaus 93" size="48" style="1"/>
+          <foreground color="-2403532"/>
+          <horizontalAlignment value="0"/>
+          <iconTextGap value="4"/>
+          <inheritsPopupMenu value="true"/>
+          <opaque value="false"/>
+          <text value="Conversor de divisas"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="e398" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+          <background color="-3620711"/>
+          <caretColor color="-9853283"/>
+          <disabledTextColor color="-2699606"/>
+          <doubleBuffered value="false"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-9853283"/>
+          <horizontalAlignment value="0"/>
+          <margin top="2" left="2" bottom="2" right="2"/>
+          <nextFocusableComponent value="1acf2"/>
+          <selectedTextColor color="-2699606"/>
+          <selectionColor color="-2699606"/>
+          <text value=""/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f2111" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="26" style="1"/>
+          <foreground color="-1924300"/>
+          <text value="De:"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="1acf2" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3620711"/>
+          <font name="Arial Black" size="12" style="1"/>
+          <foreground color="-9853283"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="92aca" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="26" style="1"/>
+          <foreground color="-1924300"/>
+          <text value="A:"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="9714e" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3620711"/>
+          <font name="Arial Black" size="12" style="1"/>
+          <foreground color="-9853283"/>
+        </properties>
+      </component>
+      <hspacer id="a732c">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c62e3">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6ceea">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8d155">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="3229c">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b200c" class="javax.swing.JLabel" binding="lbCambio">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+          <focusable value="true"/>
+          <font name="Cooper Black" size="28" style="1"/>
+          <foreground color="-10604730"/>
+          <opaque value="false"/>
+          <text value="0,00 uds."/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="1f2a7" class="javax.swing.JButton" binding="btnEvaluar">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3714509"/>
+          <font name="Cooper Black" size="18"/>
+          <foreground color="-206192"/>
+          <label value="CONVERTIR"/>
+          <margin top="5" left="5" bottom="5" right="5"/>
+          <text value="CONVERTIR"/>
+        </properties>
+      </component>
+      <component id="48010" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cooper Black" size="26" style="1"/>
+          <foreground color="-1924300"/>
+          <text value="Valor:"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="55c2c" class="javax.swing.JButton" binding="btnRegresar">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="REGRESAR"/>
+          <background color="-2699606"/>
+          <font name="Cooper Black" size="14" style="1"/>
+          <foreground color="-10604730"/>
+          <iconTextGap value="0"/>
+          <text value="VOLVER⮌"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
