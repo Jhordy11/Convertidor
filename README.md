@@ -2,7 +2,7 @@
 Este proyecto forma parte del quinto challenge del programa Oracle ONE.
 Para el desarrollo del conversor se usó el estilo Modelo vista controlador (MVC).
 
-![Home](./img/img1.jpg)
+![Home](./img/img1.JPG)
 
 ####Uso
 Su uso es simple.
