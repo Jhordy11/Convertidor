@@ -5,7 +5,7 @@ import com.convertidor.interfaces.Transformable;
 
 public class ConversorTemperaturaController extends ConversorController{
     public ConversorTemperaturaController() {
-        super("Conversor De Tiempo", Temperatura.values());
+        super("Conversor De Temperatura", Temperatura.values());
     }
     @Override
     public Double convertir(Double valor, Transformable tipo1 , Transformable tipo2){
