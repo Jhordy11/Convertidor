@@ -13,12 +13,12 @@ Su uso es simple.
 
 ####Tipo de conversores implementados
 - Monedas
-![Home](./img/img2.jpg)
+![Home](./img/img2.JPG)
 - Tiempo
-![Home](./img/img3.jpg)
+![Home](./img/img3.JPG)
 - Temperatura
-![Home](./img/img4.jpg)
+![Home](./img/img4.JPG)
 - Masa
-![Home](./img/img5.jpg)
+![Home](./img/img5.JPG)
 
 ######Autor Jhordy
